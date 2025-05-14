@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Noah's Music</title>
+  <style>
+    body {
+      font-family: 'Arial Rounded MT Bold', sans-serif;
+      background: linear-gradient(to bottom, #fdf6e3, #fff);
+      margin: 0;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    header {
+      border: 10px double #8e44ad;
+      padding: 1rem;
+      margin-bottom: 2rem;
+      background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Music_icon.svg/1024px-Music_icon.svg.png') no-repeat center;
+      background-size: 60px;
+      background-color: #fceff9;
+    }
+
+    h1 {
+      color: #5e3370;
+      font-size: 2.5rem;
+      margin-top: 0.5rem;
+    }
+
+    .song {
+      background: #ffffff;
+      margin: 1.5rem auto;
+      padding: 1.5rem;
+      border-radius: 12px;
+      max-width: 500px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      border: 3px dashed #c39bd3;
+    }
+
+    .song h2 {
+      color: #8e44ad;
+      margin-bottom: 0.5rem;
+    }
+
+    .description {
+      font-style: italic;
+      color: #555;
+      margin-bottom: 1rem;
+    }
+
+    .placeholder {
+      color: #999;
+      font-style: italic;
+    }
+
+    footer {
+      margin-top: 4rem;
+      font-size: 0.9rem;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🎶 Noah's Music Album 🎶</h1>
+  </header>
+
+  <div class="song">
+    <h2>Track 1: All I Want, Horror Theme</h2>
+    <p class="description">A dark, cinematic theme blending emotion and suspense — inspired by classic horror scores.</p>
+    <p class="placeholder">Audio coming soon...</p>
+  </div>
+
+  <div class="song">
+    <h2>Track 2: Simple Beat</h2>
+    <p class="description">A stripped-down rhythm built around steady drums and minimalistic energy.</p>
+    <p class="placeholder">Audio coming soon...</p>
+  </div>
+
+  <div class="song">
+    <h2>Track 3: When You Look in My Eyes</h2>
+    <p class="description">A heartfelt country-pop ballad about connection and vulnerability.</p>
+    <p class="placeholder">Audio coming soon...</p>
+  </div>
+
+  <footer>
+    © 2025 Noah Leibl · Made with 🎸 and ☕
+  </footer>
+</body>
+</html>
